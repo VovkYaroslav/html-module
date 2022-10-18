@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+
+}
+.father{
+    width: 600px;
+}
+.container{
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.min{
+    background: darkviolet;
+    width: 180px;
+    height: 190px;
+}
+.color{
+    background: blueviolet;
+}
+.w{
+    height: 200px;
+}
+.c{
+    height: 350px;
+    margin-top: -5px;
+}
