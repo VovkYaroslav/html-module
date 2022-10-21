@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.icon{
+    font-size: 50px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #ff625b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.blocs{
+    width: 80%;
+    height: 50%;
+    /*background: blueviolet;*/
+    display: flex;
+    justify-content: space-between;
+
+}
+.bloc{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: violet;
+    border: 3px solid red;
+
+}
+.bottom{
+    border: 4px dotted #ff6071;
+    height: 10%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff98f1;
+}
+

@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1300px;
+    height: 600px;
+
+    background: #ff98f1;
+
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bloc{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100%;
+    width: 50%;
+
+}
+.min{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 30%;
+    width: 95%;
+
+    border: 2px solid yellow;
+}
+.icon{
+
+   font-size: 50px;
+
+}

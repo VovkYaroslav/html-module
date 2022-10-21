@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1460px;
+    height: 760px;
+
+    background: #ff98f1;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.object{
+    width: 30%;
+    height: 70%;
+
+    background: violet;
+    border: 2px solid purple;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+
+    background: darkviolet;
+
+    border: 2px solid purple;
+    border-radius: 50%;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    font-size: 40px;
+}
+.more{
+    border: 2px solid rebeccapurple;
+    width: 50%;
+    height: 15%;
+}
