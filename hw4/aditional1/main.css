@@ -1,0 +1,342 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 3000px;
+
+    background: #ff98f1;
+
+    display: flex;
+    flex-flow: column;
+}
+
+.p1 {
+    width: 99.5%;
+    height: 5%;
+
+    background: yellow;
+    border: 3px solid purple;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.minp1 {
+    width: 20%;
+    height: 90%;
+
+    background: blue;
+}
+
+.containermin {
+    width: 99.5%;
+    height: 93%;
+
+    display: flex;
+}
+
+.p2 {
+    width: 20%;
+    height: 100%;
+
+    background: yellow;
+    border: 3px solid purple;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.minp2 {
+    width: 90%;
+    height: 5%;
+    margin-top: 20px;
+
+    background: blue;
+}
+
+.containermin1 {
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    flex-flow: column;
+}
+
+.p3 {
+    width: 100%;
+    height: 20%;
+
+    background: yellow;
+    border: 3px solid purple;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inf {
+    width: 95%;
+    height: 90%;
+
+    background: blue;
+}
+
+.p4 {
+    width: 100%;
+    height: 15%;
+
+    background: yellow;
+    border: 3px solid purple;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.minbloc {
+    width: 45%;
+    height: 80%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.xxx {
+    width: 45%;
+    height: 100%;
+
+    background: blue;
+}
+
+.p56 {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+}
+
+.p5 {
+    width: 75%;
+    height: 100%;
+
+    background: yellow;
+    border: 3px solid purple;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    width: 45%;
+    height: 95%;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.c6 {
+    width: 100%;
+    height: 16%;
+
+    background: blue;
+}
+
+.p6 {
+    width: 25%;
+    height: 100%;
+
+    background: yellow;
+    border: 3px solid purple;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.i3 {
+    width: 90%;
+    height: 30%;
+
+    display: flex;
+    flex-flow: column;
+}
+
+.h3 {
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+
+    background: blue;
+}
+
+.q {
+    width: 90%;
+    height: 10%;
+
+    background: blue;
+}
+
+.p7 {
+    width: 99.8%;
+    height: 15%;
+
+    background: yellow;
+    border: 3px solid purple;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.long {
+    width: 90%;
+    height: 30%;
+
+    background: blue;
+}
+
+.small {
+    width: 40%;
+    height: 30%;
+
+    background: blue;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+
+    .p1 {
+        width: 78.3%;
+        height: 3%;
+        position: relative;
+        margin-left: auto;
+    }
+
+    .p2 {
+        height: 20%;
+        position: relative;
+        top: -97px;
+        border: 6px dashed green;
+    }
+
+    .p3 {
+        height: 10%;
+    }
+
+    .p4 {
+        flex-flow: column;
+    }
+
+    .minbloc {
+        width: 90%;
+        align-items: center;
+    }
+
+    .xxx {
+        height: 70%;
+
+    }
+
+    .p56 {
+        flex-flow: column;
+    }
+
+    .p5 {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .p6 {
+        width: 100%;
+        height: 30%;
+        flex-flow: row;
+        justify-content: space-around;
+    }
+
+    .i3 {
+        width: 45%;
+        height: 70%;
+        justify-content: space-between;
+    }
+
+    .q {
+        width: 50%;
+        height: 80%;
+    }
+
+}
+@media screen and (max-width: 800px)
+{
+    .p1 {
+        width: 78.3%;
+        height: 1.5%;
+        margin-left: auto;
+    }
+
+    .p2 {
+        height: 20%;
+        position: relative;
+        top: -97px;
+        border: 6px dashed green;
+    }
+
+    .p3 {
+        height: 10%;
+    }
+
+    .p4 {
+        flex-flow: column;
+    }
+
+    .minbloc {
+        width: 90%;
+        align-items: center;
+    }
+
+    .xxx {
+        height: 70%;
+
+    }
+
+    .p56 {
+        flex-flow: column;
+    }
+
+    .p5 {
+        width: 100%;
+        overflow: auto;
+        flex-flow: column;
+    }
+    .content{
+        margin-top: 5px;
+        width: 90%;
+    }
+
+    .p6 {
+        width: 100%;
+        height: 50%;
+        justify-content: space-around;
+    }
+
+    .i3 {
+        width: 90%;
+        height: 50%;
+        justify-content: space-around;
+    }
+
+    .q {
+        width: 90%;
+        height: 40%;
+    }
+    .p7{
+        height: 5%;
+    }
+
+}
